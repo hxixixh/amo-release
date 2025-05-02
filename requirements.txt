@@ -1,0 +1,15 @@
+# requirements.txt
+
+# Please install PyTorch matching your specific OS and CUDA/CPU setup first.
+# See: https://pytorch.org/get-started/locally/
+# Example command for CUDA 12.1 (used during development):
+# pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
+
+# Core dependencies from original environment setup
+transformers==4.44.2
+accelerate==1.4.0
+sentencepiece==0.2.0
+protobuf==5.29.3
+
+# Note: 'diffusers' is NOT listed here because it is installed 
+# from the './diffusion-amo' (or your actual submodule name) submodule using 'pip install -e'.

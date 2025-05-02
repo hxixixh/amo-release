@@ -44,7 +44,6 @@ We propose **Overshooting Sampler** and **AMO Sampler** that alternates between 
     ```bash
     # Install the modified diffusers library from the submodule
     pip install -e ./diffusion-amo 
-    # ^-- IMPORTANT: Ensure 'diffusion-amo' is the correct submodule directory name!
 
     # Install other requirements
     pip install -r requirements.txt
