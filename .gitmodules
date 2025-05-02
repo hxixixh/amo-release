@@ -1,0 +1,4 @@
+[submodule "diffusers-amo"]
+	path = diffusers-amo
+	url = git@github.com:hxixixh/diffusers-amo.git
+	branch = amo-mods-v0.30.1
